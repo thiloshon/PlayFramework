@@ -1,0 +1,35 @@
+@()
+
+@main("Login Page") {
+
+    <form method="POST" action="@routes.BookController.addUser()">
+        <label>Name</label><br>
+        <input type="text" name="name"/><br>
+        <label>Email ID</label><br>
+        <input type="text" name="id"/><br>
+        <label>Password</label><br>
+        <input type="password" name="password"/><br>
+        <button>SIGN UP</button><br>
+    </form>
+
+    <hr>
+    <br><br><br>
+    <form method="POST" action="@routes.BookController.getUser()">
+        <label>Email ID</label><br>
+        <input type="text" name="reqID"/><br>
+        <label>Password</label><br>
+        <input type="password" name="reqPassword"/><br>
+        <button>LOG IN</button><br>
+    </form>
+}
+
+
+@*<script type='text/javascript' src='@routes.Assets.at("javascripts/index.js")'></script>*@
+
+@*<ul id="persons"></ul>
+
+<form method="POST" action="@routes.PersonController.addPerson()">
+<input type="text" name="name"/>
+<button>Add Person</button>
+</form>
+<br>*@
