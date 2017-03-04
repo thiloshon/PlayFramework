@@ -1,3 +1,5 @@
-# Play Java Product with JPA
+# Play Java Product with Typesafe Activator
 
-This project demonstrate how to create a simple CRUD application with Play, using JPA.
+This project creates a simple CRUD application with Play, Typesafe Activator. 
+
+An Overnight Assignment
